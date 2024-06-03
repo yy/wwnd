@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = ''
+theme = 'anatole'
+
+[params]
+title = ""
+description = ""
+author = "James Bagrow and Yong-Yeol Ahn"
+profilePicture = "https://yyiki.s3.us-east-2.amazonaws.com/public/imgs/wwnd_cover_small.png"
+customCss = ["css/custom.css"]
+displayMode = "dark"
+doNotLoadAnimations = true
+contentratio = 0.6
+reversepagetitle = true
+
+[[params.socialIcons]]
+icon = "fas fa-book"
+title = "Cambridge Press"
+url = "https://www.cambridge.org/network-data"
+
+[[params.socialIcons]]
+icon = "fab fa-amazon"
+title = "Amazon"
+url = "https://www.amazon.com/Working-Network-Data-Science-Perspective/dp/1009212591"
+
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Authors"
+identifier = "author"
+weight = 200
+url = "/#working-with-network-data"
+
+[[menu.main]]
+name = "Why this book?"
+identifier = "why"
+weight = 200
+url = "/#authors"
+
+[[menu.main]]
+name = "Table of Contents"
+identifier = "toc"
+weight = 300
+url = "/#why-this-book"
+
+[[menu.main]]
+name = "Resources"
+identifier = "resources"
+weight = 400
+url = "/#datasets-and-code"

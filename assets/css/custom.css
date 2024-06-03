@@ -1,0 +1,21 @@
+body .post__content{
+  scroll-padding-top: 200px;
+}
+
+.post__content h2 {
+  padding-top: 20px;
+  color: #8e4539; 
+}
+
+.sidebar__introduction-profileimage {
+  width: 400px;
+  height: auto;
+  border-radius: 0;
+}
+
+.post__content h1 {
+  font-size: 3em;
+  font-family: "Futura-CondensedExtraBold", Futura, sans-serif;
+  font-stretch: condensed;
+  font-weight: bold;
+}
